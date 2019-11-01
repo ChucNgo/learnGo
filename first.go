@@ -1,16 +1,14 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
-	fmt.Println("Hello world! This is my first Go program")
+	// fmt.Println("Hello world! This is my first Go program")
 
-	x, y := 15, 10
-	sum, diff := calc(x, y)
-	fmt.Println("Sum", sum)
-	fmt.Println("Diff", diff)
+	// x, y := 15, 10
+	// sum, diff := calc(x, y)
+	// fmt.Println("Sum", sum)
+	// fmt.Println("Diff", diff)
+
+	goByEx1()
 }
 
 func calc(num1 int, num2 int) (int, int) {
